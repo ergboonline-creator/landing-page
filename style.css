@@ -267,3 +267,30 @@ footer{
 .fa-js{
     font-size: 65px;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 10px rgb(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+}
+.logo{
+    color: #007BFF;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.nav-links a:hover{
+    color: #007BFF;
+}
