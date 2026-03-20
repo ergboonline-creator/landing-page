@@ -12,6 +12,9 @@
     <body>
         <nav class="navbar">
             <h2 class="logo">Gabriel</h2>
+            <div class="navbar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <ul class="nav-links">
                 <li><a href="#hero">Inicio</a></li>
                 <li><a href="#services">Servicios</a></li>
@@ -65,6 +68,7 @@
             <h2>Proyectos</h2>
             <div class="projects-container">
                 <div class="project-card">
+                    <img src="images/portafolio.png" alt="Proyecto portafolio">
                     <h3>Portafolio personal</h3>
                     <p>Mi portafolioo donde muestro mis proyectos como Desarrollador web</p>
                     <a href="https://github.com/repos?q=owner%3A%40me">Ver Proyecto</a>
@@ -79,11 +83,12 @@
         <section id="about" class="about">
             <h2>Sobre mi</h2>
             <p>Hola, soy Gabriel Rincon. Estoy aprendiendo desarrollo web y me especializo en crear ditios modernos usando HTML, CSS y JavaScript</p>
+            <a href="cv.pdf" download class="button-cv">Descargar CV</a>
         </section>
         <section id="contact" class="contact">
             <h2>Contacto</h2>
             <p>Si quieres trabajar conmigo, puedes contactarme aqui:</p>
-            <a class="contact-button" href="mailto:Gabrinc97@hotmail.com">Enviar correo</a>
+            <a class="contact-button" href="mailto:Gabrinc97@hotmail.com">contactame</a>
         </section>
         <section class="tech">
             <h2>Teconologias que uso</h2>
@@ -117,6 +122,11 @@
         </script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init()</script>
+        <script>
+            const toggle = document.querySelector(".menu.toggle");
+            const nav = document.querySelector(".nav-links");
+            toggle.eddEvenListener("clik", () => {});
+        </script>
     </body>
     
 </html>
